@@ -3,8 +3,8 @@ HireMe est une plateforme de services locaux permettant aux utilisateurs de prop
 
 ## Fonctionnalités Requises
 ### Gestion des Services
-Les prestataires peuvent créer, éditer et supprimer leurs services.
-Chaque service doit avoir un titre, une description, une catégorie et éventuellement un coût.
+Les prestataires peuvent créer, éditer et supprimer leurs services.<br>
+Chaque service doit avoir un titre, une description, une catégorie et éventuellement un coût.<br>
 Les services doivent être affichés triés par catégorie ou date de publication.
 ### Consultation des Services
 Les utilisateurs peuvent consulter les services disponibles.<br>
@@ -13,9 +13,9 @@ Les utilisateurs peuvent entrer en contact avec les prestataires pour discuter d
 Framework PHP: Laravel <br>
 Base de données: MySQL
 ### Installation et Utilisation
-Cloner le projet depuis le dépôt Git.
-Configurer l'environnement Laravel.
-Créer la base de données et configurer les paramètres de connexion dans le fichier .env.
-Exécuter les migrations pour créer les tables de base de données.
-Lancer le serveur Laravel.
+Cloner le projet depuis le dépôt Git.<br>
+Configurer l'environnement Laravel.<br>
+Créer la base de données et configurer les paramètres de connexion dans le fichier .env.<br>
+Exécuter les migrations pour créer les tables de base de données.<br>
+Lancer le serveur Laravel.<br>
 Accéder à l'application via le navigateur.
