@@ -7,10 +7,10 @@ Les prestataires peuvent créer, éditer et supprimer leurs services.
 Chaque service doit avoir un titre, une description, une catégorie et éventuellement un coût.
 Les services doivent être affichés triés par catégorie ou date de publication.
 ### Consultation des Services
-Les utilisateurs peuvent consulter les services disponibles.
+Les utilisateurs peuvent consulter les services disponibles.<br>
 Les utilisateurs peuvent entrer en contact avec les prestataires pour discuter des détails.
 ### Technologies Utilisées
-Framework PHP: Laravel
+Framework PHP: Laravel <br>
 Base de données: MySQL
 ### Installation et Utilisation
 Cloner le projet depuis le dépôt Git.

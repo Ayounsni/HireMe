@@ -15,7 +15,7 @@ use App\Http\Controllers\CategorieController;
 |
 */
 
-Route::get('/', [ServiceController::class, 'index']);
+Route::get('/', [ServiceController::class, 'index'])->name('index');
 Route::get('/service', [ServiceController::class, 'create']);
 Route::post('/store', [ServiceController::class, 'store'])->name('store');
 Route::get('/service', [CategorieController::class, 'index']);

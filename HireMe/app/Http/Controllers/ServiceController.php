@@ -27,8 +27,32 @@ class ServiceController extends Controller
         $prix=$request->prix;
         
         // Validation
+        $request->validate([
+            'nom'=> 'required|min:3',
+            'prenom'=> 'required|min:3',
+            'email'=> 'required|email',
+            'phone'=> 'required|regex:/^\+212\d{9}$/',
+            'title'=> 'required|min:8',
+            'categorie'=> 'required',
+            'description'=> 'required|min:30',
+            'prix'=> 'required|numeric|min:5',
+
+        ], [
+            'phone.regex'=>'Veuillez entrer un numéro de téléphone valide (commence par +212 suivi de 9 chiffres)',
+            ]
+);
 
         // Insertion
-        Service::create()
+        Service::create([
+            'prenom'=>$prenom,
+            'nom'=>$nom,
+            'email'=>$email,
+            'telephone'=>$phone,
+            'title'=>$title,
+            'price'=>$prix,
+            'description'=>$description,
+            'category_id'=>$categorie,
+        ]);
+        return redirect()->Route('index');
     }
 }
